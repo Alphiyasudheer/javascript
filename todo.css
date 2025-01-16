@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    background-color: blue;
+    width: 400px;
+    padding: 25px;
+    margin-left: 40%;
+    margin-top: 15%;
+    border-radius: 5px;
+    
+}
+.input-control{
+    display: flex;
+    align-items: center;
+    
+}
+ h1{
+    /* text-align: center; */
+    color: white;
+ }
+ button{
+    width: 60px;
+    padding: 4px;
+    border-radius: 4px;
+    margin-top: 30px;
+ }
+ input{
+    margin-top: 30px;
+    padding: 4px;
+    border-radius: 4px;
+    width: 350px;
+ }

@@ -1,0 +1,196 @@
+.nav-bar nav{
+    /* outline: 1px solid red; */
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    
+    
+}
+.nav-bar nav button{
+    padding: 5px;
+    background-color:transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    width: 150px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-1 .logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: 1px solid black;
+    /* margin: 10px 10px; */
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+.container-1 .image img{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-55%,-40%);
+    width: 600px;
+}
+.container-1 h2
+{ font-family: "DM Serif Text", serif;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+.container-1 h1
+{ font-family: "DM Serif Text", serif;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    
+}
+p{
+    font-family: "DM Serif Text", serif;
+    font-size:30px;
+    text-align: center;
+
+}
+.heading{
+    line-height: 100px;
+}
+input[type="button"]{
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+    
+}
+.but{
+    margin: 5px 200px;
+}
+.service-backgrnd{
+    background-color: white;
+    position: absolute;
+    top: 760px;
+    height: 120px;
+    width:100%;
+    
+
+}
+.sevice{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    
+}
+.service-backgrnd h1{
+    text-align:center;
+    /* outline: 2px solid red; */
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: rgb(22, 67, 4);
+font-size: 50px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+hr.line{
+    width: 10%;
+    border: 3px solid rgb(246, 242, 12);
+    margin: 0 auto;
+
+}
+.container{
+    margin-top: 300px;
+}
+.container .card-title{
+    font-family: "Roboto", sans-serif;
+}
+.container card-text{
+    font-family: "Roboto", sans-serif;
+    color: grey;
+}
+.original h1{
+    text-align: center;
+}
+.original h1 p{
+    text-align: center;
+}
+.org{
+    width: 600px;
+    margin: 300px auto;
+    color: green;
+}
+.org img{ width: 100px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.org .or{
+    font-size: small;
+}
+.about-us h2{
+    font-size: medium;
+    color: grey;
+}
+.about-us h1{
+    color: rgb(17, 81, 17);
+    font-family: "Baskervville SC", serif;
+}
+.about-us p{
+    color: rgb(21, 62, 21);
+    font-family: "Mukta", sans-serif;
+    font-size: large;
+    margin-top: 80px;
+}
+.about-us {
+    margin: 40px;
+    width: 500px;
+    position: relative;
+}
+.about-us input[type="button"] {
+    color: rgb(3, 47, 3);
+    background-color: white;
+    width: 150px;
+    padding: 10px;
+    font-size: large;
+}
+.about-us img{
+    position: absolute;
+    top: 0;
+    right: -600px;
+    height: 100%;
+    width: 350px
+}
+.third img{
+    position: relative;
+}
+.third .third-para{
+    position: absolute;
+    
+    top: 3500px;
+    left: 50px;
+    color: white;
+}
+.third button{
+    padding: 8px;
+    background-color: yellow;
+    border-radius: 9px;
+    margin-left: 45% ;
+    
+}

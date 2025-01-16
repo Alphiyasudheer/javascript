@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    padding: 40px;
+    background-color: white;
+    margin: 100px;
+}
+body{
+    background-color: rgb(131, 41, 159);
+}
+h1{
+    color: blueviolet;
+}
+button{
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+    width: 200px;
+}

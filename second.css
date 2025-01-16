@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    line-height: 100px;
+}
+
+form{
+    margin: 50px;
+    padding: 15px;
+    
+    
+}
+input[type="text"]{
+    width:100%;
+    border-radius: 15px;
+    padding: 5px;
+    
+
+}
+input[type="email"]{
+    width:100%;
+    border-radius: 15px;
+    padding: 5px;
+}
+input[type="number"]{
+    width:100%;
+    border-radius: 15px;
+    padding: 5px;
+}
+textarea{
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px;
+}
+input[type="button"]{
+    background-color: blue;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    position: relative;
+    left: 200px;
+}

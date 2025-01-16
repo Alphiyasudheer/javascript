@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button  onclick="clicked()">Click me</button>
+
+    <button ondblclick="dbclick()">Double click</button>
+    <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" 
+    onmouseover="overme()" width="100px">
+    <input type="text" id="name" onblur="handleBlur()" placeholder="Enter your name">
+
+    <label for="color">Choose a color:</label>
+    <select name="" id="color" onchange="handleChange()">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+    </select>
+    <script>
+        function clicked(){
+            console.log("you clicked me");
+            
+        }
+        function dbclick(){
+            console.log('you double clicked me');
+            
+        }
+        function overme(){
+            console.log("you over the image");
+            
+        }
+        function handleBlur(){
+            alert('input field has lost focus')
+        }
+        function handleChange(){
+            var color=document.getElementById('color').value;
+            alert('you select:' +color)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    width: 500px;
+    background-color: whitesmoke;
+    margin-left: 25%;
+    margin-top: 10%;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    background-color:rgb(188, 228, 243)
+}
+label{
+    font-weight: bold;
+
+}
+.rr{
+    border-radius: 2px;
+    width: 100%;
+    padding: 5px;
+    outline: 1px solid rgb(176, 174, 174);
+}
+h1{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    
+}
